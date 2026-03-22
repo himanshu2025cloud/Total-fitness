@@ -2,26 +2,41 @@
 <html>
 <head>
     <title>Power Gym</title>
+
     <style>
         body {
             margin: 0;
             font-family: Arial;
-            background: #111;
+            background: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438');
+            background-size: cover;
+            background-position: center;
             color: white;
             text-align: center;
         }
 
-        header {
-            background: #000;
+        .overlay {
+            background: rgba(0,0,0,0.7);
             padding: 20px;
+        }
+
+        header {
+            padding: 40px 20px;
         }
 
         h1 {
             color: #00ff88;
+            font-size: 40px;
         }
 
         .section {
             padding: 40px 20px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
         }
 
         .btn {
@@ -33,16 +48,17 @@
             font-weight: bold;
         }
 
-        .card {
-            background: #222;
-            margin: 15px;
-            padding: 20px;
+        img {
             border-radius: 10px;
+            margin-top: 20px;
         }
     </style>
+
 </head>
 
 <body>
+
+<div class="overlay">
 
 <header>
     <h1>POWER GYM</h1>
@@ -50,28 +66,53 @@
 </header>
 
 <div class="section">
-    <h2>About Us</h2>
-    <p>We provide best fitness training, modern equipment and personal coaching.</p>
+    <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" width="90%">
 </div>
 
 <div class="section">
-    <h2>Our Services</h2>
+    <h2>About Us</h2>
+    <p>Premium aesthetic gym with modern equipment, advanced lighting and elite training environment.</p>
+</div>
 
-    <div class="card">🏋️ Weight Training</div>
-    <div class="card">🤸 Personal Training</div>
-    <div class="card">🔥 Fat Loss Programs</div>
+<div class="section">
+    <h2>Our Features</h2>
+
+    <div class="card">🔥 Advanced Machines</div>
+    <div class="card">💡 Crazy Lighting Setup</div>
+    <div class="card">🧖 Hot Bath Facility</div>
+    <div class="card">📸 Posing Room</div>
+    <div class="card">🧘 Yoga Room</div>
+    <div class="card">🥗 Healthy Canteen</div>
+    <div class="card">🥦 Free Diet Plan by Dietician</div>
+
+</div>
+
+<div class="section">
+    <h2>Membership Plans</h2>
+
+    <div class="card">💪 1 Month – ₹1800</div>
+    <div class="card">🔥 3 Months – ₹4000</div>
+    <div class="card">🏆 12 Months – ₹12000</div>
+</div>
+
+<div class="section">
+    <h2>Testimonials</h2>
+    <p>"Best aesthetic gym in Dwarka! Amazing vibe and machines 💪"</p>
 </div>
 
 <div class="section">
     <h2>Join Now</h2>
-    <p>Start your fitness journey today</p>
-    <a class="btn" href="https://wa.me/911234567890">Contact on WhatsApp</a>
+    <p>Transform your body today</p>
+    <a class="btn" href="https://wa.me/919354892085">Contact on WhatsApp</a>
 </div>
 
 <div class="section">
     <h2>Contact</h2>
-    <p>📍 Location: dwarka </p>
+    <p>👤 Himanshu Tiwari</p>
+    <p>📍 Location: Dwarka</p>
     <p>📞 Phone: 9354892085</p>
+</div>
+
 </div>
 
 </body>
